@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C3D46CD2090231400E7C715 /* BGSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D46CB2090231400E7C715 /* BGSetViewController.m */; };
+		9C3D46CE2090231400E7C715 /* BGSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C3D46CC2090231400E7C715 /* BGSetViewController.xib */; };
+		9CE6203C208838F1001A33E4 /* BGBingoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6203A208838F1001A33E4 /* BGBingoViewController.m */; };
+		9CFEC9B6203D7E3900F4F347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEC9B5203D7E3900F4F347 /* AppDelegate.m */; };
+		9CFEC9BE203D7E3900F4F347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFEC9BD203D7E3900F4F347 /* Assets.xcassets */; };
+		9CFEC9C1203D7E3900F4F347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFEC9BF203D7E3900F4F347 /* LaunchScreen.storyboard */; };
+		9CFEC9C4203D7E3900F4F347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEC9C3203D7E3900F4F347 /* main.m */; };
+		9CFEC9EA203D807100F4F347 /* BGBingoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CFEC9E8203D807100F4F347 /* BGBingoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C40AEBB2058B89400D40A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFEC9A9203D7E3900F4F347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFEC9B0203D7E3900F4F347;
+			remoteInfo = Bingo;
+		};
+		9CFEC9CA203D7E3A00F4F347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFEC9A9203D7E3900F4F347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFEC9B0203D7E3900F4F347;
+			remoteInfo = Bingo;
+		};
+		9CFEC9D5203D7E3A00F4F347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFEC9A9203D7E3900F4F347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFEC9B0203D7E3900F4F347;
+			remoteInfo = Bingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C3D46CA2090231400E7C715 /* BGSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSetViewController.h; sourceTree = "<group>"; };
+		9C3D46CB2090231400E7C715 /* BGSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSetViewController.m; sourceTree = "<group>"; };
+		9C3D46CC2090231400E7C715 /* BGSetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BGSetViewController.xib; sourceTree = "<group>"; };
+		9C40AEB62058B89400D40A0B /* MonkeyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE62039208838F1001A33E4 /* BGBingoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGBingoViewController.h; sourceTree = "<group>"; };
+		9CE6203A208838F1001A33E4 /* BGBingoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGBingoViewController.m; sourceTree = "<group>"; };
+		9CFEC9B1203D7E3900F4F347 /* Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFEC9B4203D7E3900F4F347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CFEC9B5203D7E3900F4F347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CFEC9BD203D7E3900F4F347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CFEC9C0203D7E3900F4F347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CFEC9C2203D7E3900F4F347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFEC9C3203D7E3900F4F347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CFEC9C9203D7E3A00F4F347 /* BingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFEC9D4203D7E3A00F4F347 /* BingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFEC9E8203D807100F4F347 /* BGBingoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BGBingoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C40AEB32058B89400D40A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9AE203D7E3900F4F347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9C6203D7E3A00F4F347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9D1203D7E3A00F4F347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CFEC9A8203D7E3900F4F347 = {
+			isa = PBXGroup;
+			children = (
+				9CFEC9B3203D7E3900F4F347 /* Bingo */,
+				9CFEC9B2203D7E3900F4F347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CFEC9B2203D7E3900F4F347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CFEC9B1203D7E3900F4F347 /* Bingo.app */,
+				9CFEC9C9203D7E3A00F4F347 /* BingoTests.xctest */,
+				9CFEC9D4203D7E3A00F4F347 /* BingoUITests.xctest */,
+				9C40AEB62058B89400D40A0B /* MonkeyTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CFEC9B3203D7E3900F4F347 /* Bingo */ = {
+			isa = PBXGroup;
+			children = (
+				9CFEC9B4203D7E3900F4F347 /* AppDelegate.h */,
+				9CFEC9B5203D7E3900F4F347 /* AppDelegate.m */,
+				9CFEC9BD203D7E3900F4F347 /* Assets.xcassets */,
+				9CFEC9BF203D7E3900F4F347 /* LaunchScreen.storyboard */,
+				9CFEC9C2203D7E3900F4F347 /* Info.plist */,
+				9CFEC9C3203D7E3900F4F347 /* main.m */,
+				9CE62039208838F1001A33E4 /* BGBingoViewController.h */,
+				9CE6203A208838F1001A33E4 /* BGBingoViewController.m */,
+				9CFEC9E8203D807100F4F347 /* BGBingoViewController.xib */,
+				9C3D46CA2090231400E7C715 /* BGSetViewController.h */,
+				9C3D46CB2090231400E7C715 /* BGSetViewController.m */,
+				9C3D46CC2090231400E7C715 /* BGSetViewController.xib */,
+			);
+			path = Bingo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C40AEB52058B89400D40A0B /* MonkeyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C40AEBF2058B89400D40A0B /* Build configuration list for PBXNativeTarget "MonkeyTest" */;
+			buildPhases = (
+				9C40AEB22058B89400D40A0B /* Sources */,
+				9C40AEB32058B89400D40A0B /* Frameworks */,
+				9C40AEB42058B89400D40A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C40AEBC2058B89400D40A0B /* PBXTargetDependency */,
+			);
+			name = MonkeyTest;
+			productName = MonkeyTest;
+			productReference = 9C40AEB62058B89400D40A0B /* MonkeyTest.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9CFEC9B0203D7E3900F4F347 /* Bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFEC9DD203D7E3A00F4F347 /* Build configuration list for PBXNativeTarget "Bingo" */;
+			buildPhases = (
+				9CFEC9AD203D7E3900F4F347 /* Sources */,
+				9CFEC9AE203D7E3900F4F347 /* Frameworks */,
+				9CFEC9AF203D7E3900F4F347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bingo;
+			productName = Bingo;
+			productReference = 9CFEC9B1203D7E3900F4F347 /* Bingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CFEC9C8203D7E3A00F4F347 /* BingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFEC9E0203D7E3A00F4F347 /* Build configuration list for PBXNativeTarget "BingoTests" */;
+			buildPhases = (
+				9CFEC9C5203D7E3A00F4F347 /* Sources */,
+				9CFEC9C6203D7E3A00F4F347 /* Frameworks */,
+				9CFEC9C7203D7E3A00F4F347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFEC9CB203D7E3A00F4F347 /* PBXTargetDependency */,
+			);
+			name = BingoTests;
+			productName = BingoTests;
+			productReference = 9CFEC9C9203D7E3A00F4F347 /* BingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CFEC9D3203D7E3A00F4F347 /* BingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFEC9E3203D7E3A00F4F347 /* Build configuration list for PBXNativeTarget "BingoUITests" */;
+			buildPhases = (
+				9CFEC9D0203D7E3A00F4F347 /* Sources */,
+				9CFEC9D1203D7E3A00F4F347 /* Frameworks */,
+				9CFEC9D2203D7E3A00F4F347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFEC9D6203D7E3A00F4F347 /* PBXTargetDependency */,
+			);
+			name = BingoUITests;
+			productName = BingoUITests;
+			productReference = 9CFEC9D4203D7E3A00F4F347 /* BingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CFEC9A9203D7E3900F4F347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ClassroomM;
+				TargetAttributes = {
+					9C40AEB52058B89400D40A0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFEC9B0203D7E3900F4F347;
+					};
+					9CFEC9B0203D7E3900F4F347 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9CFEC9C8203D7E3A00F4F347 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFEC9B0203D7E3900F4F347;
+					};
+					9CFEC9D3203D7E3A00F4F347 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFEC9B0203D7E3900F4F347;
+					};
+				};
+			};
+			buildConfigurationList = 9CFEC9AC203D7E3900F4F347 /* Build configuration list for PBXProject "Bingo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CFEC9A8203D7E3900F4F347;
+			productRefGroup = 9CFEC9B2203D7E3900F4F347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CFEC9B0203D7E3900F4F347 /* Bingo */,
+				9CFEC9C8203D7E3A00F4F347 /* BingoTests */,
+				9CFEC9D3203D7E3A00F4F347 /* BingoUITests */,
+				9C40AEB52058B89400D40A0B /* MonkeyTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C40AEB42058B89400D40A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9AF203D7E3900F4F347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFEC9C1203D7E3900F4F347 /* LaunchScreen.storyboard in Resources */,
+				9C3D46CE2090231400E7C715 /* BGSetViewController.xib in Resources */,
+				9CFEC9BE203D7E3900F4F347 /* Assets.xcassets in Resources */,
+				9CFEC9EA203D807100F4F347 /* BGBingoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9C7203D7E3A00F4F347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9D2203D7E3A00F4F347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C40AEB22058B89400D40A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9AD203D7E3900F4F347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFEC9C4203D7E3900F4F347 /* main.m in Sources */,
+				9CE6203C208838F1001A33E4 /* BGBingoViewController.m in Sources */,
+				9C3D46CD2090231400E7C715 /* BGSetViewController.m in Sources */,
+				9CFEC9B6203D7E3900F4F347 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9C5203D7E3A00F4F347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEC9D0203D7E3A00F4F347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C40AEBC2058B89400D40A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFEC9B0203D7E3900F4F347 /* Bingo */;
+			targetProxy = 9C40AEBB2058B89400D40A0B /* PBXContainerItemProxy */;
+		};
+		9CFEC9CB203D7E3A00F4F347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFEC9B0203D7E3900F4F347 /* Bingo */;
+			targetProxy = 9CFEC9CA203D7E3A00F4F347 /* PBXContainerItemProxy */;
+		};
+		9CFEC9D6203D7E3A00F4F347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFEC9B0203D7E3900F4F347 /* Bingo */;
+			targetProxy = 9CFEC9D5203D7E3A00F4F347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CFEC9BF203D7E3900F4F347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFEC9C0203D7E3900F4F347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C40AEBD2058B89400D40A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonkeyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.MonkeyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingo;
+			};
+			name = Debug;
+		};
+		9C40AEBE2058B89400D40A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonkeyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.MonkeyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingo;
+			};
+			name = Release;
+		};
+		9CFEC9DB203D7E3A00F4F347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CFEC9DC203D7E3A00F4F347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CFEC9DE203D7E3A00F4F347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXR7Z5LLRJ;
+				INFOPLIST_FILE = Bingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.Bingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CFEC9DF203D7E3A00F4F347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXR7Z5LLRJ;
+				INFOPLIST_FILE = Bingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.Bingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CFEC9E1203D7E3A00F4F347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.BingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bingo.app/Bingo";
+			};
+			name = Debug;
+		};
+		9CFEC9E2203D7E3A00F4F347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.BingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bingo.app/Bingo";
+			};
+			name = Release;
+		};
+		9CFEC9E4203D7E3A00F4F347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.BingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingo;
+			};
+			name = Debug;
+		};
+		9CFEC9E5203D7E3A00F4F347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.BingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C40AEBF2058B89400D40A0B /* Build configuration list for PBXNativeTarget "MonkeyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C40AEBD2058B89400D40A0B /* Debug */,
+				9C40AEBE2058B89400D40A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFEC9AC203D7E3900F4F347 /* Build configuration list for PBXProject "Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFEC9DB203D7E3A00F4F347 /* Debug */,
+				9CFEC9DC203D7E3A00F4F347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFEC9DD203D7E3A00F4F347 /* Build configuration list for PBXNativeTarget "Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFEC9DE203D7E3A00F4F347 /* Debug */,
+				9CFEC9DF203D7E3A00F4F347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFEC9E0203D7E3A00F4F347 /* Build configuration list for PBXNativeTarget "BingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFEC9E1203D7E3A00F4F347 /* Debug */,
+				9CFEC9E2203D7E3A00F4F347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFEC9E3203D7E3A00F4F347 /* Build configuration list for PBXNativeTarget "BingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFEC9E4203D7E3A00F4F347 /* Debug */,
+				9CFEC9E5203D7E3A00F4F347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CFEC9A9203D7E3900F4F347 /* Project object */;
+}
